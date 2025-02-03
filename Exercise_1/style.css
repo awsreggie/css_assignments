@@ -1,0 +1,36 @@
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.header {
+    background-color: #FF0080;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.content {
+    padding-top: 40px;
+    font-size: 16px;
+    color: black;
+}
